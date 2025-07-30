@@ -8,8 +8,8 @@ dotenv.config()
 //   filename: string; // The name of the file to be saved in the S3 bucket
 // };
 const {
-  AWS_ACCESS_KEY_ID,
-  AWS_SECRET_ACCESS_KEY,
+  AWS_ACCESS_KEY,
+  AWS_SECRET_ACCESS,
   AWS_BUCKET_REGION,
   AWS_S3_BUCKET_NAME,
 } = process.env;
